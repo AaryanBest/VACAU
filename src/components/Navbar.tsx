@@ -24,14 +24,9 @@ export const Navbar: React.FC<NavbarProps> = ({ cartCount, onOpenCart, onOpenOrd
         {/* Logo */}
         <a 
           href="#hero" 
-          className="flex items-baseline gap-2 group"
+          className="font-display text-2xl md:text-3xl font-bold tracking-tight text-white hover:opacity-85 transition-opacity"
         >
-          <span className="font-display text-2xl md:text-3xl font-bold tracking-tight text-white group-hover:opacity-85 transition-opacity">
-            VACOU
-          </span>
-          <span className="text-[10px] font-mono uppercase tracking-[0.25em] text-white/50 hidden sm:inline-block">
-            RESTAURANT
-          </span>
+          VACOU
         </a>
 
         {/* Center Nav Links - hidden on mobile */}

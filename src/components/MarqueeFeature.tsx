@@ -22,7 +22,7 @@ export const MarqueeFeature: React.FC<MarqueeFeatureProps> = ({ onOpenOrder }) =
         whileInView={{ rotate: 0, opacity: 1, scale: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
-        className="absolute top-12 right-6 md:right-16 z-20 w-28 h-28 md:w-32 md:h-32 rounded-full bg-white text-black p-2 flex flex-col items-center justify-center text-center shadow-2xl hover:scale-105 transition-transform cursor-default"
+        className="hidden sm:flex absolute top-8 right-6 md:right-16 z-20 w-28 h-28 md:w-32 md:h-32 rounded-full bg-white text-black p-2 flex-col items-center justify-center text-center shadow-2xl hover:scale-105 transition-transform cursor-default"
       >
         <Award className="w-5 h-5 mb-1 stroke-[2.2]" />
         <span className="font-display text-[10px] md:text-xs font-black uppercase tracking-wider leading-tight">

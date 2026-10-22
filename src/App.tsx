@@ -75,8 +75,11 @@ export default function App() {
 
   return (
     <div className="relative min-h-screen bg-black text-white overflow-hidden">
-      {/* Background: Fixed full-screen looping video behind all content with brightness-[0.9] and instant file upload/URL switcher */}
+      {/* Background: Fixed full-screen looping video behind all content */}
       <BackgroundVideo />
+
+      {/* Subtle contrast layer ensuring crystal-clear text legibility over culinary video */}
+      <div className="fixed inset-0 bg-gradient-to-b from-black/55 via-black/25 to-black/70 pointer-events-none z-0" />
 
       {/* All page content sits in a relative z-10 wrapper above the video */}
       <div className="relative z-10 flex flex-col min-h-screen">

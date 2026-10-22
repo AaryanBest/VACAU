@@ -50,13 +50,9 @@ export const Footer: React.FC = () => {
             <p className="text-sm text-white/60 font-sans leading-relaxed max-w-xs">
               Modern haute cuisine crafted with fire, terroir, and seasonal precision. An indelible celebration of artisanal gastronomy.
             </p>
-            <div className="pt-2 space-y-1.5">
-              <span className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/[0.05] border border-white/[0.1] text-xs font-mono text-white/70">
-                <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
-                Dinner: Tue – Sun 5:30 PM – 11:00 PM
-              </span>
-              <p className="text-[11px] text-white/50 font-mono">
-                450 Madison Avenue, Manhattan, NY
+            <div className="pt-2">
+              <p className="text-xs text-white/60 font-mono tracking-wide">
+                Berkeley Square, Mayfair, London, UK
               </p>
             </div>
           </div>
