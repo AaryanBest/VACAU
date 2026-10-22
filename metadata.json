@@ -1,0 +1,6 @@
+{
+  "name": "VACUO — Premium Vacuum-Sealed Fresh Food",
+  "description": "Editorial, luxury monochrome landing page for VACUO, showcasing precision vacuum-sealed fresh food delivery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
